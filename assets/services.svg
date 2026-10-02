@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1a1e"/>
+      <stop offset="1" stop-color="#0a1316"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.6" stop-color="#0f766e" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </linearGradient>
+    <g id="base">
+      <rect x="0.5" y="0.5" width="584" height="264" rx="16" fill="url(#card)" stroke="#1d3035"/>
+      <rect x="24" y="0" width="300" height="2" fill="url(#accent)"/>
+      <rect x="32" y="32" width="56" height="56" rx="12" fill="#2dd4bf" fill-opacity="0.08" stroke="#2dd4bf" stroke-opacity="0.35"/>
+    </g>
+  </defs>
+
+  <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+
+    <!-- 1. Full Stack -->
+    <g>
+      <use href="#base"/>
+      <g transform="translate(38 38)" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 14L7 22L15 30M29 14L37 22L29 30M25 11L19 33"/>
+      </g>
+      <text x="108" y="58" font-size="22" font-weight="700" fill="#f0f6f8">Desarrollo Full Stack</text>
+      <text x="108" y="82" font-size="14" fill="#5eead4">Producto web de extremo a extremo</text>
+      <g font-size="15" fill="#9fb3ba">
+        <rect x="34" y="125" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="132">Plataformas PMO, LMS y paneles administrativos</text>
+        <rect x="34" y="155" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="162">Next.js, React y TypeScript con arquitectura escalable</text>
+        <rect x="34" y="185" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="192">APIs, bases de datos e integraciones con terceros</text>
+        <rect x="34" y="215" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="222">Sitios corporativos y landing pages de alto rendimiento</text>
+      </g>
+    </g>
+
+    <!-- 2. Inteligencia artificial -->
+    <g transform="translate(615 0)">
+      <use href="#base"/>
+      <g transform="translate(38 38)" fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="12" y="12" width="20" height="20" rx="4"/>
+        <circle cx="22" cy="22" r="3.5" fill="#2dd4bf"/>
+        <path d="M17 6v6M22 6v6M27 6v6M17 32v6M22 32v6M27 32v6M6 17h6M6 22h6M6 27h6M32 17h6M32 22h6M32 27h6"/>
+      </g>
+      <text x="108" y="58" font-size="22" font-weight="700" fill="#f0f6f8">Inteligencia artificial</text>
+      <text x="108" y="82" font-size="14" fill="#5eead4">Orquestación de agentes y producto con IA</text>
+      <g font-size="15" fill="#9fb3ba">
+        <rect x="34" y="125" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="132">Orquestación de agentes y flujos multiagente</text>
+        <rect x="34" y="155" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="162">Integración de LLMs: Claude, Gemini y modelos locales</text>
+        <rect x="34" y="185" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="192">Servidores MCP y automatización de herramientas</text>
+        <rect x="34" y="215" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="222">Productos y funcionalidades impulsados por IA</text>
+      </g>
+    </g>
+
+    <!-- 3. Seguridad ofensiva -->
+    <g transform="translate(0 295)">
+      <use href="#base"/>
+      <g transform="translate(38 38)" fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 5L37 11V22C37 30.5 30.5 37 22 40C13.5 37 7 30.5 7 22V11Z" fill="#2dd4bf" fill-opacity="0.08"/>
+        <path d="M15.5 22.5L20 27L29 17.5"/>
+      </g>
+      <text x="108" y="58" font-size="22" font-weight="700" fill="#f0f6f8">Seguridad ofensiva</text>
+      <text x="108" y="82" font-size="14" fill="#5eead4">Pentesting y desarrollo seguro</text>
+      <g font-size="15" fill="#9fb3ba">
+        <rect x="34" y="125" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="132">Pruebas de penetración en aplicaciones web y APIs</text>
+        <rect x="34" y="155" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="162">Auditorías basadas en OWASP Top 10</text>
+        <rect x="34" y="185" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="192">Análisis de vulnerabilidades y hardening</text>
+        <rect x="34" y="215" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="222">Informes técnicos y planes de remediación</text>
+      </g>
+    </g>
+
+    <!-- 4. Videojuegos -->
+    <g transform="translate(615 295)">
+      <use href="#base"/>
+      <g transform="translate(38 38)" fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="12" width="38" height="21" rx="10.5"/>
+        <path d="M10 22.5H18M14 18.5V26.5"/>
+        <circle cx="29" cy="20" r="1.8" fill="#2dd4bf"/>
+        <circle cx="33.5" cy="25" r="1.8" fill="#2dd4bf"/>
+      </g>
+      <text x="108" y="58" font-size="22" font-weight="700" fill="#f0f6f8">Desarrollo de videojuegos</text>
+      <text x="108" y="82" font-size="14" fill="#5eead4">Unreal Engine 5 y Godot 4</text>
+      <g font-size="15" fill="#9fb3ba">
+        <rect x="34" y="125" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="132">Sistemas de gameplay, IA de enemigos y progresión</text>
+        <rect x="34" y="155" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="162">Generación procedural de niveles</text>
+        <rect x="34" y="185" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="192">Mundo abierto multiplataforma para PC y móvil</text>
+        <rect x="34" y="215" width="6" height="6" rx="1.5" fill="#2dd4bf"/><text x="52" y="222">Pipelines de contenido asistidos por IA vía MCP</text>
+      </g>
+    </g>
+  </g>
+</svg>
