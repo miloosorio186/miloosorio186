@@ -1,8 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
-  <img width="100%" src="./assets/banner-dark.svg" alt="Brayan Caicedo - Ingeniería de software, inteligencia artificial y seguridad ofensiva" />
-</picture>
+<p align="center">
+  <img width="100%" src="./assets/banner.svg" alt="Brayan Caicedo - Full Stack, inteligencia artificial y seguridad ofensiva" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=2DD4BF&center=true&vCenter=true&width=640&lines=Construyo+plataformas+web+para+empresas;Orquesto+agentes+de+IA+para+automatizar+y+escalar;Audito+aplicaciones+con+mentalidad+ofensiva;Del+diseno+al+despliegue%2C+con+seguridad+desde+el+inicio" alt="Typing SVG" />
