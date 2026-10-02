@@ -99,10 +99,6 @@ Desarrollador full stack enfocado en construir plataformas web modernas para emp
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=miloosorio186&bg_color=0d1117&color=94a3b8&line=2dd4bf&point=5eead4&area=true&area_color=14b8a6&title_color=2dd4bf&hide_border=true" />
-</p>
-
-<p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/miloosorio186/miloosorio186/output/github-snake-dark.svg" />
 </p>
 
